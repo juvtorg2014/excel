@@ -41,9 +41,9 @@ def comparison(file_source, file_receiver):
 
 
 if __name__ == '__main__':
-    file_1 = input("Введите имя файла отчета\n")
+    file_1 = input("Введите имя файла отчета без расширения:\n")
     file_1 = os.path.abspath(file_1 + '.xlsx')
-    file_2 = input("Введите имя второго файла\n")
+    file_2 = input("Введите имя второго файла без расширения:\n")
     file_2 = os.path.abspath(file_2 + '.xlsx')
     comparison(file_1, file_2)
 
